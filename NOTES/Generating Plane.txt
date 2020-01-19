@@ -1,0 +1,66 @@
+		//// Get the indexes to the four points of the quad.
+			//index1 = (m_TerrainWidth * j) + i;          // Upper left.
+			//index2 = (m_TerrainWidth * j) + (i + 1);      // Upper right.
+			//index3 = (m_TerrainWidth * (j + 1)) + i;      // Bottom left.
+			//index4 = (m_TerrainWidth * (j + 1)) + (i + 1);  // Bottom right.
+	
+	
+			//												// Now create two triangles for that quad.
+
+			//												// Line 4 - Upper left.
+			//positionX = (float)i;
+			//positionZ = (float)(j + 1);												// Triangle 1 - Upper left.
+
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+
+			//index++;
+	
+			//// Line 1 - Upper right.
+			//positionX = (float)(i + 1);
+			//positionZ = (float)(j + 1);
+
+			//// Triangle 1 - Upper right.
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+			//index++;
+
+			//// Line 3 - Bottom left.
+			//positionX = (float)i;
+			//positionZ = (float)j;
+			//// Triangle 1 - Bottom left.
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+			//index++;
+
+			//// Line 3 - Bottom left.
+			//positionX = (float)i;
+			//positionZ = (float)j;
+			//// Triangle 2 - Bottom left.
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+			//index++;
+
+			//// Line 1 - Upper right.
+			//positionX = (float)(i + 1);
+			//positionZ = (float)(j + 1);
+
+			//// Triangle 2 - Upper right.
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+			//index++;
+		
+			//// Line 3 - Bottom right.
+			//positionX = (float)(i + 1);
+			//positionZ = (float)j;
+
+			//// Triangle 2 - Bottom right.
+			//vertices[index].position = XMFLOAT3(positionX, 0.0f, positionZ);
+			//vertices[index].texture = XMFLOAT2(m_HeightMap[index3].tu, tv);
+			//vertices[index].normal = XMFLOAT3(m_HeightMap[index3].nx, m_HeightMap[index3].ny, m_HeightMap[index3].nz);
+			//index++;

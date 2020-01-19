@@ -1,0 +1,24 @@
+﻿  VoxelTerrain.cpp
+d:\mark\desktop\dx_terrain_current\structures.h(28): warning C4458: declaration of 'Postion' hides class member
+  d:\mark\desktop\dx_terrain_current\structures.h(19): note: see declaration of 'Frame::Postion'
+d:\mark\desktop\dx_terrain_current\structures.h(29): warning C4458: declaration of 'Rotation' hides class member
+  d:\mark\desktop\dx_terrain_current\structures.h(20): note: see declaration of 'Frame::Rotation'
+d:\mark\desktop\dx_terrain_current\structures.h(30): warning C4458: declaration of 'Scale' hides class member
+  d:\mark\desktop\dx_terrain_current\structures.h(21): note: see declaration of 'Frame::Scale'
+d:\mark\desktop\dx_terrain_current\structures.h(32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\libnoise\include\noise\module\modulebase.h(351): warning C4100: 'm': unreferenced formal parameter
+d:\mark\desktop\dx_terrain_current\libnoise\include\noise\module\const.h(81): warning C4100: 'z': unreferenced formal parameter
+d:\mark\desktop\dx_terrain_current\libnoise\include\noise\module\const.h(81): warning C4100: 'y': unreferenced formal parameter
+d:\mark\desktop\dx_terrain_current\libnoise\include\noise\module\const.h(81): warning C4100: 'x': unreferenced formal parameter
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(65): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(67): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.h(43): warning C4100: 'depth': unreferenced formal parameter
+d:\mark\desktop\dx_terrain_current\voxelterrain.cpp(16): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.cpp(18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\mark\desktop\dx_terrain_current\voxelterrain.cpp(100): warning C4018: '<': signed/unsigned mismatch
+d:\mark\desktop\dx_terrain_current\voxelterrain.cpp(25): warning C4189: 'seed': local variable is initialized but not referenced
+  DX11 Framework.vcxproj -> D:\Mark\Desktop\DX_Terrain_Current\Debug\DX11 Framework.exe
+  DX11 Framework.vcxproj -> D:\Mark\Desktop\DX_Terrain_Current\Debug\DX11 Framework.pdb (Full PDB)
